@@ -32,7 +32,7 @@ Requires(preun):    chkconfig, initscripts
 Requires(postun):   initscripts
 
 
-Source0:    http://nginx.org/download/nginx-1.10.2.tar.gz
+Source0:    http://nginx.org/download/nginx-%{version}.tar.gz
 Source1:    %{name}.init
 Source2:    %{name}.logrotate
 #Source5:	ngx_http_auth_pam_module-1.2.tar.gz
