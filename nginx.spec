@@ -234,6 +234,7 @@ cp ../modsecurity-3 .
 %config(noreplace) %{nginx_confdir}/koi-utf
 %config(noreplace) %{nginx_confdir}/%{name}.conf
 %config(noreplace) %{nginx_confdir}/mime.types
+%config(noreplace) %{nginx_confdir}/modsecurity.conf
 %config(noreplace) %{_sysconfdir}/logrotate.d/%{name}
 %config(noreplace) %{_sysconfdir}/sysconfig/%{name}
 #%dir %{perl_vendorarch}/auto/%{name}
